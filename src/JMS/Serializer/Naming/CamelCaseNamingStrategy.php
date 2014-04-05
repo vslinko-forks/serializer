@@ -47,6 +47,6 @@ class CamelCaseNamingStrategy implements PropertyNamingStrategyInterface
             return strtolower($name);
         }
 
-        return ucfirst($name);
+        return lcfirst($name);
     }
 }
